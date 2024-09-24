@@ -48,7 +48,7 @@ https://pythontutor.com/visualize.html#code=agenda_exemplo%20%3D%20%7B%7D%0Aagen
 '''
 
 def consulta(agenda,pessoa):
-    pass
+    return agenda[pessoa]
 
 
 '''
@@ -66,7 +66,8 @@ https://pythontutor.com/python-debugger.html#code=agenda1%20%3D%20%7B%7D%0Aagend
 '''
 
 def adiciona(agenda,pessoa,telefone):
-  return 'adicionei'
+    return agenda[pessoa] = telefone
+    
 
 '''
 Depois que terminar a funcao, e testar no pythontutor, coloque de volta no arquivo e rode ele, 
